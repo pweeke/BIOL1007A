@@ -2,47 +2,52 @@
 title: "Assignment 2"
 author: "Penelope Weekes"
 date: "2023-01-10"
-output: html_document
+output: 
+  prettydoc::html_pretty:
+    theme: architect
+    highlight: github
 ---
 ### 1. Picture
-![Frenchmans Hotsprings, ID](https://s8174.pcdn.co/wp-content/uploads/2016/10/stanley-mountain-hot-spring.jpg)
+![Antartica Animals](https://mir-s3-cdn-cf.behance.net/project_modules/fs/6b5e63107225243.5fa22e17acaac.jpg)
 
 ### 2. Table
-One | Two | Three | Four | Five
-------------- | ------------- | ------------- | ------------- | ------------- 
-One  |
-Two  |
-Three |
+Penguin | Polar Bear | Seal | Walrus | Whale
+------ | ------ | ------ | ------ | ------ 
+1 | 3 | 6 | 12 | 7
+9 | 7 | 16 | 0 | 8
+8 | 2 | 6 | 3 | 9
 
 ### 3. Setences
 
-I live in Hailey, *Idaho*. **Idaho**, not *Iowa*. But *people* generally don't have great geography **skills**. 
+There are *penguins* in the **South** Pole, not the **North** Pole. But *people* generally don't **know** very much, so they get *confused*. 
 
 ### 4. Bullets
 
-  - Idaho
-  - Iowa
-  - Indiana
-  - Ohio
+  - Penguin
+  - Polar Bear
+  - Seal
+  - Walrus
+  - Whale
   
 ### 5. Numbers
   
-  1. Idaho
-  2. Iowa
-  3. Indiana
-  4. Ohio
+  1. Penguin
+  2. Polar Bear
+  3. Seal
+  4. Walrus
+  5. Whale
   
 ### 6. Link
 
-[My moms Amazon account?](https://www.amazon.com/?tag=amazusnavi-20&hvadid=381823327651&hvpos=&hvnetw=g&hvrand=8246554679797169390&hvpone=&hvptwo=&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9003115&hvtargid=kwd-10573980&ref=pd_sl_7j18redljs_e&hydadcr=28883_11845442&gclid=Cj0KCQiAtvSdBhD0ARIsAPf8oNlI9KyQezX-H31yvgEwmOARnIqJx173ePTtXECGfrE3WOv90JYfpDYaAtYaEALw_wcB)
+[Animals in the South Pole](https://www.coolantarctica.com/Antarctica%20fact%20file/antarctica_animal.php)
 
 ### 7. Headers
 
-# BIG
-## Medium
-### small
-#### smaller
-######### smallest (in this list)
+# WHALE
+## POLAR BEAR
+### Walrus
+#### seal
+##### penguin
 
 ### 8. superscript! subscript!
 
