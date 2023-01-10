@@ -1,0 +1,13 @@
+---
+title: "BIOL1007A Webpage"
+author: "Penelope Weekes"
+date: "2023-01-10"
+output: 
+  prettydoc::html_pretty:
+    theme: architect
+    highlight: github
+---
+
+## Assignments
+[Assignment 1](assignment1.html)  
+[Amazon](https://www.amazon.com/?tag=amazusnavi-20&hvadid=381823327651&hvpos=&hvnetw=g&hvrand=1024416889049428985&hvpone=&hvptwo=&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9003115&hvtargid=kwd-10573980&ref=pd_sl_7j18redljs_e&hydadcr=28883_11845442&gclid=Cj0KCQiAtvSdBhD0ARIsAPf8oNldaBbQb_JiBiN_Bqca0i8kIxJPDk80bivqrgKWCtsMYrVASDg7BRYaAnqbEALw_wcB)
