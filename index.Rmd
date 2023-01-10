@@ -10,4 +10,4 @@ output:
 
 ## Assignments
 [Assignment 1](assignment1.html)  
-[Amazon](https://www.amazon.com)
+[Assignment 2](assignment2.html)
