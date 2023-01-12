@@ -12,3 +12,5 @@ output:
 [Assignment 1](assignment1.html)  
 
 [Assignment 2](assignment2.html)
+
+[Assignment 3](assignment-3.html)
