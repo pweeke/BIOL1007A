@@ -1,0 +1,11 @@
+---
+title: "assignment3"
+author: "Penelope Weekes"
+date: "2023-01-12"
+output: html_document
+---
+
+question 1
+```{r}
+z <- c(3,4,5)
+```
