@@ -1,0 +1,9 @@
+---
+title: "Week 1"
+author: "Penelope Weekes"
+date: "2023-01-13"
+output:
+prettydoc::html_pretty:
+    theme: architect
+    highlight: github
+---

@@ -4,13 +4,16 @@ author: "Penelope Weekes"
 date: "2023-01-10"
 output: 
   prettydoc::html_pretty:
-    theme: architect
+    theme: leonids
     highlight: github
 ---
 
-## Assignments
+# Daily Assignments
 [Assignment 1](assignment1.html)  
 
 [Assignment 2](assignment2.html)
 
 [Assignment 3](assignment3.html)
+
+# Weekly Assignments
+[Week 1](week1.html)
