@@ -3,7 +3,110 @@ title: "Week 1"
 author: "Penelope Weekes"
 date: "2023-01-13"
 output:
-prettydoc::html_pretty:
+  prettydoc::html_pretty:
     theme: architect
     highlight: github
 ---
+# Need to set up a GitHub web Page in RStudio?
+
+> I'll give you helpful tips and help troubleshoot at each step!
+
+## Getting a Github account.
+  1. Click on this [link](https://github.com/) to make a GitHub account. 
+  2. Create a username and password that you will **not** forget!
+  
+## Creating a GitHub repository. 
+  1. Open the "repositories" tab in your GitHub account. 
+  2. Hit the green "new" button in the top right corner.
+  3. Name your new repository and add a brief description of what its purpose is. 
+  4. Make sure your repo is public, check "Add a README file" which is where you can make a longer description of your project, and choose a license for your project. 
+
+> I recommend the MIT license if you are not familiar with the other ones. This will just protect your data so other people can not profit from it!
+
+  5. Click "Create repository"
+
+## Downloading XCode and Git. 
+  1. Download XCode from the [App Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12).
+  
+  > If you don't have the newwest software you can download older version of the app [here](https://developer.apple.com/download/all/?q=xcode). This is a large app and may take a long time, so start this download **earlier** than you expect! 
+
+  2. Open the app and accept the terms and conditions. 
+  3. Then open the terminal app that comes on your mac.
+
+> If you cannot find the app, go to your desktop and hit "command & F", then search your mac for terminal. 
+
+  4. Leave terminal open and go to this [link](https://brew.sh/) for hombrew.
+  5. Copy the line of code from the webiste and paste it into terminal. **Or** copy the line from below:
+ 
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+  6. After you paste the line, hit enter. You may be prompted for a password, use the password for your mac and hit enter when you are done typing.
+  
+> When you type your password nothing will happen until you hit enter, so know that it is working even though you can't see it.
+
+  7. Press enter again when promted. Your terminal should start automatically generating progress reports, when it finishes you may be promted to run three more lines of code. Copy those lines and paste them, then hit enter.
+  8. Then type `brew install git` into terminal and hit enter.
+  
+## Downloading R and RStudio.
+  - Download R and RStudio to your desktop from the appstore or [here](https://posit.co/download/rstudio-desktop/).
+  
+  > If you don't have the most up to date computer software, you can try downloadinng an older version of [RStudio](https://www.rstudio.com/products/rstudio/older-versions/) or [R](https://cran.r-project.org/bin/macosx/old/index-old.html).   
+
+## Creating an RStudio project and linking it to your GitHub Repository.
+  1. Open RStudio and add the app to your dock. 
+  2. In the top right corner of the app hit the dropdown and select "New Project".
+  3. Select "Version Control" and then "Git"
+
+> If "Git" is not an option try restarting RStudio, or make sure you successfully downloaded Git as described above.
+
+  4. You will then be asked for a "Repository URL". To get this, return to the repository you created in GitHub. Click the green "Code" button on the top right corner of the screen, and copy the URL given there. Paste the URL into the "Repository URL" line in RStudio. 
+  5. You will also be asked for a "Project directory name", name this the **exact** same thing you named the repository in GitHub. This is *both* case and space sensitive, so pay attention!  
+  6. Use the browse option to place the project somewhere on your computer, then hit "Create Project".
+
+> I recommend keeping this on your desktop, where it is easily accessable.
+
+  7. If this **isn't** your first time linking RStudio to your GitHub, you should be all set and can skip the next step. If this **is** your first time, proceed to the next step.
+
+## Retrieving personal access code to link RStudio and GitHub.
+  1. In your GitHub click on your profile photo in the top right corner and select "Settings" from the dropdown menu.
+  2. On the bottom of the list on the left side of the page scroll to "Developer settings" and click on it.
+  3. Select "Personal access tokens" and then "Tokens (classic)".
+  4. Hit "generate new token" (you may be prompted to put in your GitHub password) and make a note that it is for the new repository you have made. 
+  5. Adjust the expiration date of the token to at least one year.
+  6. Click the "repo" check box, which will automatically select everything in this repository.
+  7. Scroll down and click "generate token".
+  8. **Copy the entire token number and save it somewhere, you will NEVER be able to see this again.**
+  9. Now back in RStudio use this token as the password you were prompted to give.
+  
+> Remember to use your GitHub **username** but this personal access token as the **password**!
+
+## Making your homepage.
+Now that you have successfully created the project in RStudio and linked it to your GitHub, you just need to create a homepage for your project and then you're pretty much set!
+ 
+ 1. In RStudio click the icon with a green plus on it in the top left corner of your page, from the drop down menu select "R Markdown". 
+ 2. Then hit the save icon, located just to the left of the "Knit on Save" checkbox and below the green plus icon.
+ 3. This will prompt you to name the file before saving. Name your file `index`. This **is** case sensitive, and needs to match that perfectly in order to function. 
+ 4. The index R Markdown file will serve as the homepage of your website. 
+ 
+> You can create new R Markdown files and link them to the homepage to make your website more intricate by adding a link to the index! Do this by entering `[text link will be associated with](exact name of file as it appears in your "files" tab in the lower right corner).`
+
+## Making your web page live.
+The last step to make your webpage accessible/visible to other people is to make your .html a live link!
+  
+  1. To do this you need to go to your GitHub account and click on the repository you are working on. Go to the settings for this individual repo (the button is on the top of the options bar).
+  2. In settings go to the "Pages" tab in the options on the left.
+  3. Change the branch from "None" to "Main" using the drop down menu and click "Save".
+  4. After you click save a webpage link will show up at the top of the page!
+
+> Be patient as it can take a few minutes for your link to show up, and reload the page until you see it. 
+
+  5. To get the changes you make in RStudio to update on your webpage you switch to the "Terminal" tab in your top right window. 
+    
+  - First type `git status`and hit enter, this should show you file names in red.
+  - Then type `git add -A` and hit enter, which shouldn't change anything. 
+  - Then type `git status` and hit enter again, which this time should show the file names in green.
+  - Then type `git commit -am "insert a brief message here about the files/changes"` and hit enter, this should generate text lines that say each file is ready to send and has been changed.  
+  - Lastly type `git push` and hit enter. This will run and then allow you to type again. Your changes should appear at your link within the next few minutes! 
+
+> Be patient! Each of these steps takes time. And make sure you pay attention to spacing, upper vs. lower case, and using the exact names/letters. Goodluck!!
+
