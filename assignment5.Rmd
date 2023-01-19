@@ -7,3 +7,50 @@ output:
     theme: architect
     highlight: github
 ---
+# Question 2
+```{r}
+my_matrix <- matrix(data = runif(16), nrow=4)
+
+my_logical <- runif(n=100, min=1, max=100)
+my_logical <- my_logical > 50
+
+my_letters <- letters
+my_letters <- sample(my_letters)
+
+my_list <- list(my_matrix, my_logical, my_letters)
+my_list
+
+my_list2 <- list(my_matrix[2,2], my_logical[2], my_letters[2])
+my_list2
+
+str(my_list2)
+
+my_list2_vector <- c(my_matrix[2,2], my_logical[2], my_letters[2])
+
+str(my_list2_vector)
+```
+
+
+# Question 3
+```{r}
+my_unifs <- runif(n=26, min = 0, max = 10)
+my_letters <- sample(LETTERS)
+
+df <- data.frame(my_unifs, my_letters)
+print(df)
+
+df$my_unifs[sample(1:26, 4)] <- NA
+
+is.na(df$my_unifs)
+
+df <- df[order(df$my_letters), ]
+print(df)
+
+mean(df$my_unifs, na.rm = TRUE)
+
+
+colnames(df) <- c("my_unifs", "my_LETTERS")
+print(df)
+
+```
+
