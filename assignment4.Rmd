@@ -1,0 +1,46 @@
+---
+title: "Assignment 4"
+author: "Penelope Weekes"
+date: "2023-01-17"
+output: 
+  prettydoc::html_pretty:
+    theme: architect
+    highlight: github
+---
+# Question One
+```{r}
+##assign the variable n_dims a single random integer between 3 and 10
+n_dims <- sample(3:10, size=1)
+n_dims
+
+##vector of consecutive integers from 1 to n_dims2
+MyVec <- c(1:n_dims^2)
+MyVec
+
+##use the sample function to randomly reshuffle these values
+MyVec <- sample(MyVec)
+MyVec
+
+##create a square matrix with these elements
+zMat <- matrix(data = MyVec, ncol = n_dims, byrow = T)
+
+##print out the matrix
+print(zMat)
+
+##find a function in r to transpose the matrix
+zMat <- t(zMat)
+
+##print it out (flips the matrix across the central digonal line)
+print(zMat)
+
+##sum of first and last row
+sum(zMat[c(1, n_dims),])
+
+##mean of first and last row
+mean(zMat[c(1, n_dims),])
+
+##my n_dims is a random, so rerunning the code creates a different matrix
+```
+  Click [here](assignment4_question1.html) to see the code rerun with a different    n_dims value. 
+
+# Question 2

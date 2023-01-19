@@ -58,4 +58,3 @@ queue <- which(queue == "aphid")
 queue
 ```
 
-

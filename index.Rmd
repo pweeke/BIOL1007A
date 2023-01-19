@@ -9,11 +9,15 @@ output:
 ---
 
 # Daily Assignments
+## Week One
 [Assignment 1](assignment1.html)  
 
 [Assignment 2](assignment2.html)
 
 [Assignment 3](assignment3.html)
+
+## Week Two
+[Assignment 4](assignment4.html)
 
 # Weekly Assignments
 [Week 1](week1.html)
