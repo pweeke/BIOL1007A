@@ -42,5 +42,3 @@ mean(zMat[c(1, n_dims),])
 ##my n_dims is a random, so rerunning the code creates a different matrix
 ```
   Click [here](assignment4_question1.html) to see the code rerun with a different    n_dims value. 
-
-# Question 2
