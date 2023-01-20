@@ -7,23 +7,10 @@ output:
     theme: leonids
     highlight: github
 ---
+![Welcome to my web page!](https://haileyairportinn.com/wp-content/uploads/2018/05/74831-resized.jpg)
 
-Welcome to my page!
+I am a sophomore neuroscience major at Middlebury College from Hailey, Idaho (pictured above!). I am taking a course called Reproducible Biology in R so that I can learn how to code! If you want, you can click to see my daily or weekly assignments below. 
 
-# Daily Assignments
-## Week One
-[Assignment 1](assignment1.html)  
+## [Daily Assignments](dailyassignments.html)
 
-[Assignment 2](assignment2.html)
-
-[Assignment 3](assignment3.html)
-
-## Week Two
-[Assignment 4](assignment4.html)
-
-[Assignment 5](assignment5.html)
-
-# Weekly Assignments
-[Week 1](week1.html)
-
-[Week 2](week2.html)
+## [Weekly Assignments](weeklyassignments.html)

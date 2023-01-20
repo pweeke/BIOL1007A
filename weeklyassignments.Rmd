@@ -1,0 +1,14 @@
+---
+title: "Weekly Assignments"
+author: "Penelope Weekes"
+date: "2023-01-20"
+output:
+  prettydoc::html_pretty:
+    theme: leonids
+    highlight: github
+---
+
+# Weekly Assignments
+[Week 1](week1.html)
+
+[Week 2](week2.html)
