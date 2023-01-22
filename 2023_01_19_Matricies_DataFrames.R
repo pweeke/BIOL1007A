@@ -1,4 +1,4 @@
-#### Finishing up Matricies ad Data Frames
+#### Finishing up Matrices and Data Frames
 #### 19 January 2023
 #### PPW
 
