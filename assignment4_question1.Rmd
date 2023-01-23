@@ -1,5 +1,5 @@
 ---
-title: "Assignment 4: Question 1 rerun"
+title: "Assignment 4: rerun"
 author: "Penelope Weekes"
 date: "2023-01-18"
 output:

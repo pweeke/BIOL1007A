@@ -20,6 +20,7 @@ my_letters <- sample(my_letters)
 my_list <- list(my_matrix, my_logical, my_letters)
 my_list
 
+#could have used [] to go into items in my_list also 
 my_list2 <- list(my_matrix[2,2], my_logical[2], my_letters[2])
 my_list2
 
@@ -48,7 +49,7 @@ print(df)
 
 mean(df$my_unifs, na.rm = TRUE)
 
-
+#could have used [] again to just rename second column, but this works too
 colnames(df) <- c("my_unifs", "my_LETTERS")
 print(df)
 

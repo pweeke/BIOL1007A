@@ -12,9 +12,9 @@
 
 <meta name="author" content="Penelope Weekes" />
 
-<meta name="date" content="2023-01-19" />
+<meta name="date" content="2023-01-23" />
 
-<title>Assignment 5</title>
+<title>Assignment 6</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -149,9 +149,9 @@ code span.ot { color: #007020; }
 
 <header>
 <div class="inner">
-<h1 class="title toc-ignore">Assignment 5</h1>
+<h1 class="title toc-ignore">Assignment 6</h1>
 <h3 class="author">Penelope Weekes</h3>
-<h3 class="date">2023-01-19</h3>
+<h3 class="date">2023-01-23</h3>
 </div>
 </header>
 
@@ -160,161 +160,133 @@ code span.ot { color: #007020; }
 <div id="content-wrapper">
   <div class="inner clearfix">
     <section id="main-content">
-<div id="question-2" class="section level1">
-<h1>Question 2</h1>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>my_matrix <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="at">data =</span> <span class="fu">runif</span>(<span class="dv">16</span>), <span class="at">nrow=</span><span class="dv">4</span>)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>my_logical <span class="ot">&lt;-</span> <span class="fu">runif</span>(<span class="at">n=</span><span class="dv">100</span>, <span class="at">min=</span><span class="dv">1</span>, <span class="at">max=</span><span class="dv">100</span>)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>my_logical <span class="ot">&lt;-</span> my_logical <span class="sc">&gt;</span> <span class="dv">50</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>my_letters <span class="ot">&lt;-</span> letters</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>my_letters <span class="ot">&lt;-</span> <span class="fu">sample</span>(my_letters)</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>my_list <span class="ot">&lt;-</span> <span class="fu">list</span>(my_matrix, my_logical, my_letters)</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>my_list</span></code></pre></div>
-<pre><code>## [[1]]
-##            [,1]        [,2]       [,3]      [,4]
-## [1,] 0.92511936 0.008693217 0.22785209 0.2183018
-## [2,] 0.90906099 0.253513765 0.95075503 0.5343595
-## [3,] 0.01933008 0.519174025 0.78043731 0.2368735
-## [4,] 0.98710676 0.236145758 0.05742204 0.3486274
-## 
-## [[2]]
-##   [1] FALSE FALSE FALSE FALSE  TRUE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE
-##  [13] FALSE  TRUE  TRUE  TRUE  TRUE FALSE FALSE FALSE  TRUE FALSE FALSE  TRUE
-##  [25] FALSE  TRUE FALSE FALSE  TRUE  TRUE FALSE  TRUE FALSE FALSE FALSE FALSE
-##  [37]  TRUE FALSE FALSE  TRUE FALSE  TRUE FALSE FALSE FALSE  TRUE  TRUE  TRUE
-##  [49]  TRUE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE  TRUE FALSE  TRUE
-##  [61] FALSE  TRUE  TRUE FALSE  TRUE  TRUE FALSE  TRUE FALSE  TRUE  TRUE  TRUE
-##  [73]  TRUE  TRUE  TRUE  TRUE FALSE  TRUE FALSE FALSE FALSE FALSE  TRUE  TRUE
-##  [85] FALSE  TRUE  TRUE  TRUE FALSE FALSE FALSE FALSE  TRUE  TRUE  TRUE FALSE
-##  [97]  TRUE FALSE FALSE FALSE
-## 
-## [[3]]
-##  [1] &quot;s&quot; &quot;b&quot; &quot;c&quot; &quot;h&quot; &quot;y&quot; &quot;m&quot; &quot;e&quot; &quot;n&quot; &quot;x&quot; &quot;p&quot; &quot;l&quot; &quot;w&quot; &quot;d&quot; &quot;r&quot; &quot;t&quot; &quot;o&quot; &quot;g&quot; &quot;i&quot; &quot;u&quot;
-## [20] &quot;k&quot; &quot;a&quot; &quot;f&quot; &quot;q&quot; &quot;j&quot; &quot;v&quot; &quot;z&quot;</code></pre>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#could have used [] to go into items in my_list also </span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>my_list2 <span class="ot">&lt;-</span> <span class="fu">list</span>(my_matrix[<span class="dv">2</span>,<span class="dv">2</span>], my_logical[<span class="dv">2</span>], my_letters[<span class="dv">2</span>])</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>my_list2</span></code></pre></div>
-<pre><code>## [[1]]
-## [1] 0.2535138
-## 
-## [[2]]
-## [1] FALSE
-## 
-## [[3]]
-## [1] &quot;b&quot;</code></pre>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(my_list2)</span></code></pre></div>
-<pre><code>## List of 3
-##  $ : num 0.254
-##  $ : logi FALSE
-##  $ : chr &quot;b&quot;</code></pre>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>my_list2_vector <span class="ot">&lt;-</span> <span class="fu">c</span>(my_matrix[<span class="dv">2</span>,<span class="dv">2</span>], my_logical[<span class="dv">2</span>], my_letters[<span class="dv">2</span>])</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(my_list2_vector)</span></code></pre></div>
-<pre><code>##  chr [1:3] &quot;0.253513765288517&quot; &quot;FALSE&quot; &quot;b&quot;</code></pre>
+<div id="data-manipulations-using-the-dplyr-package" class="section level1">
+<h1>Data manipulations using the <code>dplyr</code> package</h1>
+<div id="examine-the-structure-of-the-iris-data-set.-how-many-observations-and-variables-are-in-the-data-set" class="section level4">
+<h4>1. Examine the structure of the iris data set. How many observations
+and variables are in the data set?</h4>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code></pre></div>
+<pre><code>## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+## ✔ ggplot2 3.4.0      ✔ purrr   1.0.1 
+## ✔ tibble  3.1.8      ✔ dplyr   1.0.10
+## ✔ tidyr   1.2.1      ✔ stringr 1.5.0 
+## ✔ readr   2.1.3      ✔ forcats 0.5.2 
+## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()</code></pre>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(iris)</span></code></pre></div>
+<pre><code>## &#39;data.frame&#39;:    150 obs. of  5 variables:
+##  $ Sepal.Length: num  5.1 4.9 4.7 4.6 5 5.4 4.6 5 4.4 4.9 ...
+##  $ Sepal.Width : num  3.5 3 3.2 3.1 3.6 3.9 3.4 3.4 2.9 3.1 ...
+##  $ Petal.Length: num  1.4 1.4 1.3 1.5 1.4 1.7 1.4 1.5 1.4 1.5 ...
+##  $ Petal.Width : num  0.2 0.2 0.2 0.2 0.2 0.4 0.3 0.2 0.2 0.1 ...
+##  $ Species     : Factor w/ 3 levels &quot;setosa&quot;,&quot;versicolor&quot;,..: 1 1 1 1 1 1 1 1 1 1 ...</code></pre>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 150 obs. 5 vars.</span></span></code></pre></div>
 </div>
-<div id="question-3" class="section level1">
-<h1>Question 3</h1>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>my_unifs <span class="ot">&lt;-</span> <span class="fu">runif</span>(<span class="at">n=</span><span class="dv">26</span>, <span class="at">min =</span> <span class="dv">0</span>, <span class="at">max =</span> <span class="dv">10</span>)</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>my_letters <span class="ot">&lt;-</span> <span class="fu">sample</span>(LETTERS)</span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(my_unifs, my_letters)</span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(df)</span></code></pre></div>
-<pre><code>##     my_unifs my_letters
-## 1  1.3368357          Z
-## 2  4.4307422          Q
-## 3  4.9714002          X
-## 4  1.9937926          M
-## 5  3.2639181          B
-## 6  2.8957772          J
-## 7  1.3864879          N
-## 8  0.5994149          W
-## 9  1.7691609          A
-## 10 3.7874467          K
-## 11 0.3050412          T
-## 12 6.8148084          V
-## 13 0.4395140          O
-## 14 8.8969741          L
-## 15 2.5794952          C
-## 16 0.4927868          E
-## 17 5.6088684          F
-## 18 6.6574015          S
-## 19 3.9333666          I
-## 20 9.4613998          D
-## 21 7.3719114          H
-## 22 2.6881625          R
-## 23 9.9824761          G
-## 24 1.4784550          U
-## 25 2.1937476          Y
-## 26 1.8273103          P</code></pre>
-<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>my_unifs[<span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">26</span>, <span class="dv">4</span>)] <span class="ot">&lt;-</span> <span class="cn">NA</span></span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="fu">is.na</span>(df<span class="sc">$</span>my_unifs)</span></code></pre></div>
-<pre><code>##  [1]  TRUE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE  TRUE FALSE FALSE
-## [13] FALSE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE
-## [25] FALSE FALSE</code></pre>
-<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> df[<span class="fu">order</span>(df<span class="sc">$</span>my_letters), ]</span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(df)</span></code></pre></div>
-<pre><code>##     my_unifs my_letters
-## 9  1.7691609          A
-## 5  3.2639181          B
-## 15 2.5794952          C
-## 20        NA          D
-## 16 0.4927868          E
-## 17 5.6088684          F
-## 23 9.9824761          G
-## 21 7.3719114          H
-## 19 3.9333666          I
-## 6  2.8957772          J
-## 10        NA          K
-## 14 8.8969741          L
-## 4  1.9937926          M
-## 7  1.3864879          N
-## 13 0.4395140          O
-## 26 1.8273103          P
-## 2  4.4307422          Q
-## 22 2.6881625          R
-## 18 6.6574015          S
-## 11 0.3050412          T
-## 24 1.4784550          U
-## 12 6.8148084          V
-## 8         NA          W
-## 3  4.9714002          X
-## 25 2.1937476          Y
-## 1         NA          Z</code></pre>
-<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(df<span class="sc">$</span>my_unifs, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
-<pre><code>## [1] 3.726436</code></pre>
-<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co">#could have used [] again to just rename second column, but this works too</span></span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(df) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;my_unifs&quot;</span>, <span class="st">&quot;my_LETTERS&quot;</span>)</span>
-<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(df)</span></code></pre></div>
-<pre><code>##     my_unifs my_LETTERS
-## 9  1.7691609          A
-## 5  3.2639181          B
-## 15 2.5794952          C
-## 20        NA          D
-## 16 0.4927868          E
-## 17 5.6088684          F
-## 23 9.9824761          G
-## 21 7.3719114          H
-## 19 3.9333666          I
-## 6  2.8957772          J
-## 10        NA          K
-## 14 8.8969741          L
-## 4  1.9937926          M
-## 7  1.3864879          N
-## 13 0.4395140          O
-## 26 1.8273103          P
-## 2  4.4307422          Q
-## 22 2.6881625          R
-## 18 6.6574015          S
-## 11 0.3050412          T
-## 24 1.4784550          U
-## 12 6.8148084          V
-## 8         NA          W
-## 3  4.9714002          X
-## 25 2.1937476          Y
-## 1         NA          Z</code></pre>
+<div id="create-a-new-data-frame-iris1-that-contains-only-the-species-virginica-and-versicolor-with-sepal-lengths-longer-than-6-cm-and-sepal-widths-longer-than-2.5-cm.-how-many-observations-and-variables-are-in-the-data-set" class="section level4">
+<h4>2. Create a new data frame <code>iris1</code> that contains only the
+species virginica and versicolor with sepal lengths longer than 6 cm and
+sepal widths longer than 2.5 cm. How many observations and variables are
+in the data set?</h4>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>iris1 <span class="ot">&lt;-</span> <span class="fu">filter</span>(iris, Species <span class="sc">==</span> <span class="st">&quot;virginica&quot;</span> <span class="sc">|</span> Species <span class="sc">==</span> <span class="st">&quot;versicolor&quot;</span> <span class="sc">&amp;</span> Sepal.Length <span class="sc">&gt;</span> <span class="dv">6</span> <span class="sc">&amp;</span> Sepal.Width <span class="sc">&gt;</span> <span class="fl">2.5</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(iris1)</span></code></pre></div>
+<pre><code>## &#39;data.frame&#39;:    67 obs. of  5 variables:
+##  $ Sepal.Length: num  7 6.4 6.9 6.5 6.3 6.6 6.1 6.7 6.1 6.1 ...
+##  $ Sepal.Width : num  3.2 3.2 3.1 2.8 3.3 2.9 2.9 3.1 2.8 2.8 ...
+##  $ Petal.Length: num  4.7 4.5 4.9 4.6 4.7 4.6 4.7 4.4 4 4.7 ...
+##  $ Petal.Width : num  1.4 1.5 1.5 1.5 1.6 1.3 1.4 1.4 1.3 1.2 ...
+##  $ Species     : Factor w/ 3 levels &quot;setosa&quot;,&quot;versicolor&quot;,..: 2 2 2 2 2 2 2 2 2 2 ...</code></pre>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 67 obs. 5 vars. </span></span></code></pre></div>
+</div>
+<div id="now-create-a-iris2-data-frame-from-iris1-that-contains-only-the-columns-for-species-sepal.length-and-sepal.width.-how-many-observations-and-variables-are-in-the-data-set" class="section level4">
+<h4>3. Now, create a <code>iris2</code> data frame from
+<code>iris1</code> that contains only the columns for Species,
+Sepal.Length, and Sepal.Width. How many observations and variables are
+in the data set?</h4>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>iris2 <span class="ot">&lt;-</span> <span class="fu">select</span>(iris1, Species, Sepal.Length, Sepal.Width)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(iris2)</span></code></pre></div>
+<pre><code>## &#39;data.frame&#39;:    67 obs. of  3 variables:
+##  $ Species     : Factor w/ 3 levels &quot;setosa&quot;,&quot;versicolor&quot;,..: 2 2 2 2 2 2 2 2 2 2 ...
+##  $ Sepal.Length: num  7 6.4 6.9 6.5 6.3 6.6 6.1 6.7 6.1 6.1 ...
+##  $ Sepal.Width : num  3.2 3.2 3.1 2.8 3.3 2.9 2.9 3.1 2.8 2.8 ...</code></pre>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 67 obs. 3 vars.</span></span></code></pre></div>
+</div>
+<div id="create-an-iris3-data-frame-from-iris2-that-orders-the-observations-from-largest-to-smallest-sepal-length.-show-the-first-6-rows-of-this-data-set." class="section level4">
+<h4>4. Create an <code>iris3</code> data frame from <code>iris2</code>
+that orders the observations from largest to smallest sepal length. Show
+the first 6 rows of this data set.</h4>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>iris3 <span class="ot">&lt;-</span> <span class="fu">arrange</span>(iris2, <span class="at">by=</span><span class="fu">desc</span>(Sepal.Length))</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(iris3)</span></code></pre></div>
+<pre><code>##     Species Sepal.Length Sepal.Width
+## 1 virginica          7.9         3.8
+## 2 virginica          7.7         3.8
+## 3 virginica          7.7         2.6
+## 4 virginica          7.7         2.8
+## 5 virginica          7.7         3.0
+## 6 virginica          7.6         3.0</code></pre>
+</div>
+<div id="create-an-iris4-data-frame-from-iris3-that-creates-a-column-with-a-sepal-area-length-width-value-for-each-observation.-how-many-observations-and-variables-are-in-the-data-set" class="section level4">
+<h4>5. Create an <code>iris4</code> data frame from <code>iris3</code>
+that creates a column with a sepal area (length * width) value for each
+observation. How many observations and variables are in the data
+set?</h4>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>iris4 <span class="ot">&lt;-</span> <span class="fu">mutate</span>(iris3, <span class="at">Sepal.Area =</span> Sepal.Length<span class="sc">*</span>Sepal.Width)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(iris4)</span></code></pre></div>
+<pre><code>## &#39;data.frame&#39;:    67 obs. of  4 variables:
+##  $ Species     : Factor w/ 3 levels &quot;setosa&quot;,&quot;versicolor&quot;,..: 3 3 3 3 3 3 3 3 3 3 ...
+##  $ Sepal.Length: num  7.9 7.7 7.7 7.7 7.7 7.6 7.4 7.3 7.2 7.2 ...
+##  $ Sepal.Width : num  3.8 3.8 2.6 2.8 3 3 2.8 2.9 3.6 3.2 ...
+##  $ Sepal.Area  : num  30 29.3 20 21.6 23.1 ...</code></pre>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 67 obs. 4 vars. </span></span></code></pre></div>
+</div>
+<div id="create-the-variable-iristab-that-shows-the-average-sepal-length-the-average-sepal-width-and-the-sample-size-of-the-entire-iris4-data-frame-and-print-iristab." class="section level4">
+<h4>6. Create the variable <code>irisTab</code> that shows the average
+sepal length, the average sepal width, and the sample size of the entire
+<code>iris4</code> data frame and print <code>irisTab</code>.</h4>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>irisTab <span class="ot">&lt;-</span> <span class="fu">summarize</span>(iris4, <span class="at">meanSepal.Length =</span> <span class="fu">mean</span>(Sepal.Length), <span class="at">meanSepal.Width =</span> <span class="fu">mean</span>(Sepal.Width), <span class="at">sampleSize =</span> <span class="fu">n</span>())</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(irisTab)</span></code></pre></div>
+<pre><code>##   meanSepal.Length meanSepal.Width sampleSize
+## 1         6.561194        2.977612         67</code></pre>
+</div>
+<div id="finally-create-iris5-that-calculates-the-average-sepal-length-the-average-sepal-width-and-the-sample-size-for-each-species-of-in-the-iris4-data-frame-and-print-iris5." class="section level4">
+<h4>7. Finally, create <code>iris5</code> that calculates the average
+sepal length, the average sepal width, and the sample size for each
+species of in the <code>iris4</code> data frame and print
+<code>iris5</code>.</h4>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>iris4_species <span class="ot">&lt;-</span> <span class="fu">group_by</span>(iris4, Species)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>iris5 <span class="ot">&lt;-</span> <span class="fu">summarize</span>(iris4_species, <span class="at">meanSepal.Length =</span> <span class="fu">mean</span>(Sepal.Length), <span class="at">meanSepal.Width =</span> <span class="fu">mean</span>(Sepal.Width), <span class="at">sampleSize =</span> <span class="fu">n</span>())</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(iris5)</span></code></pre></div>
+<pre><code>## # A tibble: 2 × 4
+##   Species    meanSepal.Length meanSepal.Width sampleSize
+##   &lt;fct&gt;                 &lt;dbl&gt;           &lt;dbl&gt;      &lt;int&gt;
+## 1 versicolor             6.48            2.99         17
+## 2 virginica              6.59            2.97         50</code></pre>
+</div>
+<div id="in-these-exercises-you-have-successively-modified-different-versions-of-the-data-frame-iris1-iris2-iris3-iris4-and-iris5.-at-each-stage-the-output-data-frame-from-one-operation-serves-as-the-input-for-the-next.-a-more-efficient-way-to-do-this-is-to-use-the-pipe-operator-from-the-tidyr-package.-rework-all-of-your-previous-statements-except-for-iristab-into-an-extended-piping-operation-that-uses-iris-as-the-input-and-generates-irisfinal-as-the-output." class="section level4">
+<h4>8. In these exercises, you have successively modified different
+versions of the data frame <code>iris1</code>, <code>iris2</code>,
+<code>iris3</code>, <code>iris4</code>, and <code>iris5</code>. At each
+stage, the output data frame from one operation serves as the input for
+the next. A more efficient way to do this is to use the pipe operator
+<code>%&gt;%</code> from the <code>tidyr</code> package. Rework all of
+your previous statements (except for <code>irisTab</code>) into an
+extended piping operation that uses <code>iris</code> as the input and
+generates <code>irisFinal</code> as the output.</h4>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>irisFinal <span class="ot">&lt;-</span> iris <span class="sc">%&gt;%</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a> <span class="fu">filter</span>(Species <span class="sc">==</span> <span class="st">&quot;virginica&quot;</span> <span class="sc">|</span> Species <span class="sc">==</span> <span class="st">&quot;versicolor&quot;</span> <span class="sc">&amp;</span> Sepal.Length <span class="sc">&gt;</span> <span class="dv">6</span> <span class="sc">&amp;</span> Sepal.Width <span class="sc">&gt;</span> <span class="fl">2.5</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(Species, Sepal.Length, Sepal.Width) <span class="sc">%&gt;%</span></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="at">by=</span><span class="fu">desc</span>(Sepal.Length)) <span class="sc">%&gt;%</span></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Sepal.Area =</span> Sepal.Length<span class="sc">*</span>Sepal.Width) <span class="sc">%&gt;%</span></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Species) <span class="sc">%&gt;%</span></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">meanSepal.Length =</span> <span class="fu">mean</span>(Sepal.Length), <span class="at">meanSepal.Width =</span> <span class="fu">mean</span>(Sepal.Width), <span class="at">sampleSize =</span> <span class="fu">n</span>()) </span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(irisFinal)</span></code></pre></div>
+<pre><code>## # A tibble: 2 × 4
+##   Species    meanSepal.Length meanSepal.Width sampleSize
+##   &lt;fct&gt;                 &lt;dbl&gt;           &lt;dbl&gt;      &lt;int&gt;
+## 1 versicolor             6.48            2.99         17
+## 2 virginica              6.59            2.97         50</code></pre>
+</div>
 </div>
     </section>
   </div>

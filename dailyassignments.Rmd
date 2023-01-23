@@ -20,3 +20,6 @@ output:
 [Assignment 4](assignment4.html)
 
 [Assignment 5](assignment5.html)
+
+## Week Three
+[Assignment 6](assignment6.html)
