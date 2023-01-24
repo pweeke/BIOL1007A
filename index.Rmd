@@ -9,8 +9,10 @@ output:
 ---
 ![Welcome to my web page!](https://haileyairportinn.com/wp-content/uploads/2018/05/74831-resized.jpg)
 
-I am a sophomore neuroscience major at Middlebury College from Hailey, Idaho (pictured above!). I am taking a course called Reproducible Biology in R so that I can learn how to code! If you want, you can click to see my daily or weekly assignments below. 
+I am a sophomore neuroscience major at Middlebury College from Hailey, Idaho (pictured above!). I am taking a course called Reproducible Biology in R so that I can learn how to code! If you want, you can click to see my daily assignment, weekly assignments, or class notes below. 
 
 ## [Daily Assignments](dailyassignments.html)
 
 ## [Weekly Assignments](weeklyassignments.html)
+
+## [Class Notes](classnotes.html)

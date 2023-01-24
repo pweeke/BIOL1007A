@@ -1,0 +1,95 @@
+---
+title: "Assignment 7"
+author: "Penelope Weekes"
+date: "2023-01-24"
+output:
+  prettydoc::html_pretty:
+    theme: architect
+    highlight: github
+---
+# Data wrangling and plotting
+#### 1. Using the built-in `starwars` data set in the `dplyr` package, create a new tibble with the following modifications:
+  - It only includes the species that have more than 1 individual represented in the data set.
+  - It only includes the columns that are not of type list
+```{r}
+library(dplyr)
+species <- starwars %>%
+  group_by(species) %>%
+  summarize(Number_Species = n())
+new_starwars <- species %>%
+  filter(Number_Species>1)
+
+newest_starwars <- starwars %>%
+  filter(species %in% new_starwars$species) %>%
+  select(1:11)
+
+glimpse(newest_starwars)
+```
+  
+#### 2. Clean your data set: only include observations/rows that do not have an `NA` in the height column. Then, use `dplyr` to print a summary table showing the mean, median, and standard deviation of height for *each species*.
+```{r}
+starwarsClean <- newest_starwars %>%
+  filter(height != is.na(height))
+
+anyNA(starwarsClean[,2])
+
+sw_heightsummary <- starwarsClean %>%
+  group_by(species) %>%
+  summarize(mean_height=mean(height), median_height=median(height), stdev_height=sd(height))
+
+sw_heightsummary
+```
+
+
+#### 3. Create a box plot figure that shows the variation in heights among Star Wars species. Do the values in your summary table line up with the plot? Code so that each box plot (Species) is be filled with a different color. Change your axes labels so that species is capitalized and height is capitalized and shows units (cm). Use the theme_minimal option. Then look into the `annotate` or `geom_text` functions and add the text “p=1.2E-0.5” to the top right corner.
+```{r}
+library(ggplot2)
+library(ggthemes)
+library(patchwork)
+
+sw_boxplot <- starwarsClean %>%
+  ggplot(aes(x=species, y=height, fill=species)) +
+  geom_boxplot() +
+  labs(x="Species", y="Height (cm)") +
+  theme_minimal() +
+  geom_text(data=NULL, x=8.5, y=230, label= "p=1.2E-0.5") +
+  geom_jitter(aes(color=sex)) +
+    theme(legend.key.size = unit(.7, 'cm'), #change legend key size
+        legend.key.height = unit(.35, 'cm'), #change legend key height
+        legend.key.width = unit(.8, 'cm'), #change legend key width
+        legend.title = element_text(size=8), #change legend title font size
+        legend.text = element_text(size=8)) #change legend text font size
+sw_boxplot
+```
+
+#### 4. Using the same or a different built-in data set, create at least one additional (and different kind of) plot. Experiment with different arguments, features, and colors.
+```{r}
+starwarsClean <- newest_starwars %>%
+  filter(mass != is.na(mass))
+
+anyNA(starwarsClean[,3])
+
+sw_masspoint <- starwarsClean %>%
+  ggplot(aes(x=species, y=mass, fill=species)) +
+  geom_point(size=4, shape=20, color="black") +
+  xlab("Species") +
+  ylab("Mass") +
+  theme_minimal() +
+  geom_jitter(aes(color=sex)) +
+    theme(legend.key.size = unit(.3, 'cm'), #change legend key size
+        legend.key.height = unit(.3, 'cm'), #change legend key height
+        legend.key.width = unit(.3, 'cm'), #change legend key width
+        legend.title = element_text(size=8), #change legend title font size
+        legend.text = element_text(size=8)) #change legend text font size
+sw_masspoint
+```
+
+#### 5. Finally, create a multi-panel figure with the graphs you created.
+```{r}
+library(patchwork)
+
+sw_boxplot / plot_spacer() / sw_masspoint +
+  plot_layout(heights = unit(c(4, .5, 4), c('cm', 'cm', 'cm')))
+
+```
+

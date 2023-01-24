@@ -109,7 +109,7 @@ summarize(starwarsClean, meanHeight = mean(height)) # returns one mean of all ch
 summarize(starwarsClean, meanHeight = mean(height), totalNumber = n()) # returns av height and total # of operations
 
 # use group_by for maximum usefulness
-starwarsGenders <- group_by(starwars, gender) #seperated into gender groups
+starwarsGenders <- group_by(starwars, gender) #separated into gender groups
 head(starwarsGenders)
 
 summarize(starwarsGenders, meanHeight = mean(height, na.rm=TRUE), totalNumber=n()) #returns av height of each gender grouped

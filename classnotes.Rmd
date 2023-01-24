@@ -1,0 +1,22 @@
+---
+title: "Class Notes"
+author: "Penelope Weekes"
+date: "2023-01-24"
+output:
+  prettydoc::html_pretty:
+    theme: leonids
+    highlight: github
+---
+# Class Notes
+## Week One
+[Thursday, January 12, 2023](2023-01-12_Scripting_in_R.R)
+
+## Week 2
+[Tuesday, January 17, 2023](2023-01-17_Data_Structures.R)
+
+[Thursday, January 19, 2023](2023_01_19_Matricies_DataFrames.R)
+
+## Week 3
+[Monday, January 23, 2023](2023_01_23_Entering_tidyverse.R)
+
+[Tuesday, January 24, 2023](2023_01_24_ggplot2.R)
