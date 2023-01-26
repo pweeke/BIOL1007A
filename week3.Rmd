@@ -1,0 +1,16 @@
+---
+title: "Weekly Assignment 3"
+author: "Penelope Weekes"
+date: "2023-01-26"
+output:
+  prettydoc::html_pretty:
+    theme: architect
+    highlight: github
+---
+
+# Using publicly available data
+
+#### 1. Go to [Dryad](https://datadryad.org/search) to choose a published paper and data set and reconstruct your own figure. Code a `ggplot` graph that looks as close to the published figure as you can.
+
+
+#### 2. Perform a simple analysis (linear regression, ANOVA, t-test, chi-squared, or logistic regression) using two variables from the data set. Print the analysis’ summary table.
