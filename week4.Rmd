@@ -1,0 +1,33 @@
+---
+title: "Week 4"
+author: "Penelope Weekes"
+date: "2023-01-30"
+output:
+  prettydoc::html_pretty:
+    theme: architect
+    highlight: github
+---
+
+#### Simulate a brand new data frame (the type of data is up to you) and conduct a statistical analysis in R using 2 variables. Create a basic ggplot that goes with the analysis.
+
+```{r}
+library(tidyverse)
+Height <- rnorm(100, mean = 174.36, sd = 34.77)
+Mass <- rnorm(100, mean = 97.31, sd = 169.46)
+## These values came from the starwars dataset
+Species <- rep(c("Human", "Droid", "Wookie", "Hutt"), each = 25)
+
+Data <- data.frame(Species, Height, Mass)
+
+MassHeight <- lm(Height ~ Mass, data=Data)
+summary(MassHeight)
+
+MHgraph <- ggplot(data=Data, aes(x=Height, y=Mass, color=Species)) +
+  geom_point(size=2) +
+  stat_smooth(method="lm")
+
+MHgraph
+
+## I assigned species randomly so there is no relationship. 
+```
+

@@ -10,20 +10,26 @@ output:
 
 # Daily Assignments
 ## Week One
+This week we just set up our webpage! 
+
+## Week Two
 [Assignment 1](assignment1.html)  
 
 [Assignment 2](assignment2.html)
 
 [Assignment 3](assignment3.html)
 
-## Week Two
+## Week Three
 [Assignment 4](assignment4.html)
 
 [Assignment 5](assignment5.html)
 
-## Week Three
+## Week Four
 [Assignment 6](assignment6.html)
 
 [Assignment 7](assignment7.html)
 
 [Assignment 8](assignment8.html)
+
+## Week Five
+[Assignment 9](assignment9.html)

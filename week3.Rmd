@@ -14,7 +14,7 @@ output:
 I got my data from this study on [integrating abundance and diet data to improve inferences of food web dynamics](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13001).
 
 This is the image I based my graph off of:
-![](figs/whalefigs.webp)
+![image](figs/whalefigs.webp)
 
 And this is my graph:
 
