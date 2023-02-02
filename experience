@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Experience</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html"> </a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+							  <a href="no-sidebar.html">Education</a>
+							  <ul>
+							    <li><a href="no-sidebar.html#highschool">High School</a></li>
+									<li><a href="no-sidebar.html#college">College</a></li>
+									<li>
+									  <a href="no-sidebar.html#courses">Courses</a>
+									  <ul>
+									    <li><a href="no-sidebar.html#STEMcourses">STEM</a></li>
+									    <li><a href="no-sidebar.html#languagecourses">Language</a></li>
+									    <li><a href="no-sidebar.html#educationcourses">Education</a></li>
+									    <li><a href="no-sidebar.html#othercourses">Other</a></li>
+									   </ul>
+									 </li>
+							  </ul>
+							 </li>
+							<li>
+								<a href="left-sidebar.html">Experience</a>
+								<ul>
+									<li><a href="left-sidebar.html#labratory">Laboratory</a></li>
+									<li><a href="left-sidebar.html#sailing">Sailing</a></li>
+									<li><a href="left-sidebar.html#waitressing">Waitressing</a></li>
+									<li><a href="left-sidebar.html#certifications">Certifications</a></li>
+								</ul>
+							</li>
+							<li><a href="mailto: pweekes@middlebury.edu" class="button primary">Contact Me</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Experience</h2>
+							<p>Browse my work/volunteer experience or download my reume below.</p>
+							<p><a href="/assets/resume.pdf" class="button small">My Resume</a></p>
+						</header>
+						<div class="row gtr-150">
+							<div class="col-4 col-12-medium">
+
+								<!-- Sidebar -->
+									<section id="sidebar">
+										<section>
+										  <a href="#" class="image fit"><img src="images/rats.jpg" alt="" /></a>
+										  <header>
+										    <h3>Spritzer Lab</h3>
+										    <p>At Middlebury College</p>
+										  </header>
+											<p>A behavioral neuroendocrinology lab where I volunteer as a research assistant. The labs research is focused on how hormones impact the brain and behavior, with an emphasis on the role of testosterone in regulating spatial memory.</p>
+											<footer>
+												<ul class="actions">
+													<li><a href="https://spritzerlab.middcreate.net/" class="button">Learn More</a></li>
+												</ul>
+											</footer>
+										</section>
+										<hr />
+										<section>
+											<a href="#" class="image fit"><img src="images/himb.jpg" alt="" /></a>
+											<header>
+										    <h3>Marine Mammal Research Program</h3>
+										    <p>Univeristy of Hawaii, Manoa</p>
+										  </header>
+											<p>A subdivision of the Hawaii Institute of Marine Biology on Moku'o Loe, the Marine Mammal lab focuses on marine mammals and other marine megafauna. I interned for a Ph.D. student at the Institution. Their recent research focuses on the ecology and conservation of marine mammals, and their acoustics, hearing, and echolocation.</p>
+											<footer>
+												<ul class="actions">
+													<li><a href="https://www.mmrphawaii.org/" class="button">Learn More</a></li>
+												</ul>
+											</footer>
+										</section>
+										<hr />
+										<section>
+											<a href="#" class="image fit"><img src="images/byc.jpg" alt="" /></a>
+											<header>
+										    <h3>Beverly Yacht Club</h3>
+										    <p>Marion, MA</p>
+										  </header>
+											<p>A sailing club on buzzards bay where I worked as a race coach for two summers.</p>
+											<footer>
+												<ul class="actions">
+													<li><a href="https://beverlyyachtclub.org/" class="button">Learn More</a></li>
+												</ul>
+											</footer>
+										</section>
+										<hr />
+										<section>
+											<a href="#" class="image fit"><img src="images/shyc.jpg" alt="" /></a>
+											<header>
+										    <h3>Sachems Head Yacht Club</h3>
+										    <p>Guilford, CT</p>
+										  </header>
+											<p>Another sailing club located on the Long Island Sound where I grew up volunteering and learning to sail.</p>
+											<footer>
+												<ul class="actions">
+													<li><a href="http://www.shyc.club/" class="button">Learn More</a></li>
+												</ul>
+											</footer>
+										</section>
+										<hr />
+									</section>
+
+							</div>
+							<div class="col-8 col-12-medium imp-medium">
+
+								<!-- Content -->
+									<section id="content">
+										<h3 id="labratory"><div class="col-12"><span class="image fit"><img src="images/lab.jpg" alt="" /></span></div>Laboratory:</h3>
+										<p><strong>January 2023-present: Volunteer Research Assistant.</strong><br />
+										I currenlty volunteer as a Research Assistant in the Spritzer Lab at Middlebury College in Middlebury, Vermont. I get to assist with a senior thesis on the effects of testosterone on neurogenesis. I help with cranial and castration surgeries on lab rats, prepar animals for surgeries and assisted with administration of pre and post-operative drugs, and ensure the best quality of care for each animal.</p>
+										<p><strong>April-May 2021: Student Intern.</strong><br />
+										I interned for a Ph.D. candidate at the University of Hawaii Marine Mammal Lab in Manoa, Hawaii. My mentor was writing her dissertation on how the changes in marine soundscape due to anthropogenic impacts affected Hawaiian Monk Seals. I got to assist her with acoustic data analysis, data collection, and soundtrap deployement. I also got to assist other students within the Marine Mammal Lab with data collection for their projects.!</p>
+										<h3 id="sailing"><div class="col-12"><span class="image fit"><img src="images/ocean.jpg" alt="" /></span></div>Sailing:</h3>
+										<p><strong>Summers 2021 and 2022: Optimist Green Race Coach. </strong><br />Worked at the Beverly Yacht Club in Marion, MA as a race coach for 12-13 year olds. I also created daily lessons plans with my coworkers, ensured the safety of the sailors, and coordinated travel logistics with parents and families.</p>
+										<p><strong>Summers 2015-2020: Head Junior Instructor. </strong><br /> Volunteered at Sachems Head Yacht Club in Guilford, CT as the head junior instructor. I assisted instructing 6-12 year olds in sailing skills and marine sciences. I also organized the 10 other volunteers and coordinated our schedules, and prepared the classrooms for lessons. I would also assist beginner students with rigging their boats.</p>
+										<p><strong>Summers 2018-2020: Launch Driver. </strong> <br />Worked at Sachems Head Yacht Club in Guilford, CT as a launch driver. I shuttled boaters to and from their vessels, drove and managed boats, and managed schedules and tasks to maintain timely pickup and drop-offs of customers.</p>
+										<h3 id="waitressing"><div class="col-12"><span class="image fit"><img src="images/mint.jpg" alt="" /></span></div>Waitressing:</h3>
+										<p><strong>Winter of 2018/2019: Waitress and Busser.</strong><br /> Worked at The Mint in Hailey, Idaho. Where I maintained 50 tables, dealt with customer conflict and problems when mistakes were made with orders and payments, and coordinates with the rest of the staff to maximize customer satisfaction.</p>
+										<h3 id="certifications">Certifications:</h3>
+										<ul>
+										  <li>CPR/AED</li>
+											<li>Standard First Aid</li>
+											<li>Outdoor Emergency Care Technician</li>
+											<li>PADI Open Water Diver</li>
+											<li>CDC Heads Up</li>
+											<li>US sailing Level 1</li>
+											<li>Watercraft Operation</li>
+											<li>Safesport</li>
+											<li>CITI Program</li>
+										    <ul>
+										      <li>Guidelines for working with animals</li>
+										      <li>Moinitoring for Pain and Distress</li>
+										      <li>Working with Rats in Research Settings</li>
+										      </ul>
+										</ul>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul>
+						<li>Contact me!</li>
+					</ul>
+					<ul class="icons">
+						<li><a href="www.linkedin.com/in/penelope-weekes" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.instagram.com/penelope.weekes/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://github.com/pweeke" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="mailto: pweekes@middlebury.edu" class="icon solid alt fa-envelope"><span class="label">Middlebury Email</span></a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

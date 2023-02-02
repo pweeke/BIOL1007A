@@ -1,0 +1,44 @@
+---
+title: "Final Project"
+author: "Penelope Weekes"
+date: "2023-01-31"
+output: 
+  prettydoc::html_pretty:
+    theme: leonids
+    highlight: github
+---
+
+# Creating a personal webiste
+
+I decided to create a personal website for my final project in so that I could apply the skills I learned in this class to something more digestible.
+
+###### [You can find my website here!](https://pweeke.github.io/index.html)
+
+#### In order to create my website:
+
+  - I used this helpful [guide](https://lvash.github.io/BIOL1007A/GitHub-website-steps.html) created by my professor to help me get started on creating my website.
+
+  - I also used this [webpage](https://towardsdatascience.com/building-a-beautiful-static-webpage-using-github-f0f92c6e1f02) created by a biological data scietist for more guidance. 
+
+  - I picked the template for my webpage from [HTML5 UP](https://html5up.net/) which has a wide variety of web templates to choose from. 
+  
+  - Then I downloaded a template that fit what I wanted to look like, unzipped the files, and added them to a new project in RStudio.
+    - If you want to create your own website look at my [guide to seting up a GitHub web Page in RStudio](https://pweeke.github.io/BIOL1007A/week1.html), just be sure to name your new Repository "yourusername.github.io", and upload the themed files to the project (by putting them into your project file on your desktop).
+    
+  - After the pages were loaded into my project, I just edited them until they looked like I wanted them too!
+    - The easiest way to do this is to checkout the webpage, and then search the files for where the text that you want to change is!
+    
+
+#### Looking at the actual coding:
+
+  - ##### Of the final product:
+    - [Home Page](homepage)
+    - [Education Page](education)
+    - [Experience Page](experience)
+
+  - ##### Of the template:
+    - [Home Page](index(html))
+    - [Education Page](no-sidebar(html))
+    - [Experience Page](left-sidebar(html))
+    
+    

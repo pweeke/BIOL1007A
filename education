@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Education</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html"> </a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+							  <a href="no-sidebar.html">Education</a>
+							  <ul>
+							    <li><a href="no-sidebar.html#highschool">High School</a></li>
+									<li><a href="no-sidebar.html#college">College</a></li>
+									<li>
+									  <a href="no-sidebar.html#courses">Courses</a>
+									  <ul>
+									    <li><a href="no-sidebar.html#STEMcourses">STEM</a></li>
+									    <li><a href="no-sidebar.html#languagecourses">Language</a></li>
+									    <li><a href="no-sidebar.html#educationcourses">Education</a></li>
+									    <li><a href="no-sidebar.html#othercourses">Other</a></li>
+									   </ul>
+									 </li>
+							  </ul>
+							 </li>
+							<li>
+								<a href="left-sidebar.html">Experience</a>
+								<ul>
+									<li><a href="left-sidebar.html#labratory">Laboratory</a></li>
+									<li><a href="left-sidebar.html#sailing">Sailing</a></li>
+									<li><a href="left-sidebar.html#waitressing">Waitressing</a></li>
+									<li><a href="left-sidebar.html#certifications">Certifications</a></li>
+								</ul>
+							</li>
+							<li><a href="mailto: pweekes@middlebury.edu" class="button primary">Contact Me</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Education</h2>
+						</header>
+
+						<!-- High School -->
+				<section id="highschool" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/sagelogo.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="col-4 col-10-medium">
+									<header>
+										<h2 align = "center">The Sage School</h2>
+									</header>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+							
+							<!-- High School -->
+							<section id="highschool1">
+								<p>I graduated from The Sage School, a small high school in Hailey, Idaho, in June of 2021. The school values hands on learning and is intentionally deisgned to connect its students to themselves, their communities, and the world around them.</p>
+								<h4>The schools mission statement:<br /></h4>
+								<p>We honor adolescence as a critical developmental window for learning essential academic, cognitive, social, and emotional skills.<br />
+								The Sage School creates a thriving environment for students through a challenging, authentic curriculum, centered on human ecology and engaging experiences designed specifically to promote self-awareness, community responsibility, and a sense of place.</p>
+								<h4>Learn more about the school:</h4>
+								<ul>
+								  <li>By visiting the school website: <a href="https://thesageschool.org/">The Sage School</a></li>
+								  <li>By viewing the schools portfolio: <a href="/assets/sageportfolio.pdf">Sage Portfolio</a></li>
+								  <li>Or, by viewing my transcript: <a href="/assets/transcript.pdf">Here</a></li>
+								</ul>
+							</section>
+
+      <!-- College -->
+				<section id="college" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/middlogo.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="col-4 col-10-medium">
+									<header>
+										<h2 align = "center">Middlebury College</h2>
+									</header>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+							
+						<!-- College -->
+							<section id="college1">
+								<p>I am currenlty a sophomore at Middlebury College in Middlebury, Vermont, where I am pursuing a bachelor of arts with a major in Neuroscience and a double minor in Spanish and Education Studies. I am expected to graduate in May of 2025. I have also taken a variety of classes in other departments as I embrace the liberal arts education!<br />
+								I also participate in other activities on campus including volunteering as a research assistant in a lab, working as a teaching assistant, and serving as the fleet captain for the club saillng team.</p>
+								<h4>To learn more about Middlebury:</h4>
+								<ul>
+								  <li>You can visit the schools website: <a href="https://www.middlebury.edu/office/about">Here</a></li>
+								  <li>You can look at the lab I work in: <a href="https://spritzerlab.middcreate.net/">Here</a></li>
+								  <li>You can learn about the sailing team: <a href="https://sites.middlebury.edu/sailing/">Here</a></li>
+								  <li>Or, you can check out the courses I have taken: <a href="#courses">Here</a></li>
+								</ul>
+							</section>
+
+      <!-- Courses -->
+				<section id="courses" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/courses.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="col-4 col-10-medium">
+									<header>
+										<h2 align = "center">Courses</h2>
+									</header>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+						<!-- Courses -->
+             <section>
+								<p>I have taken a wide variety of courses as I explore the liberal arts education!<br />
+								You can view them below, or download my unofficial transcript <a href="/assets/middtranscript.pdf">here.</a></p>
+							</section>
+
+						<!-- STEM Courses -->
+							<section id="STEMcourses">
+								<h3>STEM Courses</h3>
+								<p></p>
+								<ul>
+								  <li>Introduction to Psychology: <a href="https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FPSYC0105">PSYC 0105</a>.</li>
+								  <li>Ecology and Evolution: <a href="https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FBIOL0140">BIOL 0140</a>.</li>
+									<li>Cell Biology and Genetics: <a href="https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FBIOL0145">BIOL 0145</a>.</li>
+									<li>Linear Algebra: <a href="https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FMATH0200">MATH 0200</a>.</li>
+									<li>General Chemistry I: <a href="https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/term/term%2F200390/course/course%2FCHEM0103">CHEM 0103</a>.</li>
+									<li>Being a Public Scientist: <a href="https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/term/term%2F202010/course/course%2FFYSE1588">FYSE 1588</a>.</li>
+									<li>Reproducible Biology in R: <a href="https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FBIOL1007">BIOL 1007</a>.</li>
+								</ul>
+							</section>
+
+						<!-- Language Courses -->
+							<section id="languagecourses">
+								<h3>Language Courses</h3>
+								<p></p>
+								<ul>
+									<li>Ideas and Cultures of The Southern Cone: <a href="https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FSPAN0307">SPAN 0307</a>.</li>
+									<li>Intermediate Spanish II: <a href="https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FSPAN0220">SPAN 0220</a>.</li>
+									<li>Intermediate Spanish: <a href="https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FSPAN0201">SPAN 0201</a>.</li>
+								</ul>
+							</section>
+
+						<!-- Education Courses -->
+							<section id="educationcourses">
+								<h3>Education Studies Courses</h3>
+								<p></p>
+								<ul>
+								  <li>Culturally Relevant Pedagogies: <a href="https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FEDST0215">EDST 0215</a>.</li>
+									<li>Education in The USA: <a href="https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FEDST0115">EDST 0115</a>.</li>
+								</ul>
+							</section>
+
+						<!-- Other Courses -->
+							<section id="othercourses">
+								<h3>Other Courses</h3>
+								<p></p>
+								<ul>
+									<li>Unlearning What You See: <a href="https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FART0156">ART 0156</a>.</li>
+									<li>Intro to Food System Issues: <a href="https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FFOOD0280">FOOD 0280</a>.</li>
+								</ul>
+							</section>
+
+						<!-- In Progress Courses -->
+							<section id="othercourses">
+								<h3>Courses in Progress</h3>
+								<p>(Expected May 2023 completion)</p>
+								<ul>
+									<li>General Chemistry II: <a href="https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FCHEM0104">CHEM 0104</a>.</li>
+									<li>Cellular/Molecular Neuroscience: <a href="https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FNSCI0251">NSCI 0251</a>.</li>
+									<li>Soccer in Latin America: <a href="https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FSPAN0374">SPAN 0374</a>.</li>
+									<li>Sophomore Seminar/Liberal Arts: <a href="https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FINTD0210">INTD 0210</a>.</li>
+								</ul>
+							</section>
+
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul>
+						<li>Contact me!</li>
+					</ul>
+					<ul class="icons">
+						<li><a href="www.linkedin.com/in/penelope-weekes" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.instagram.com/penelope.weekes/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://github.com/pweeke" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="mailto: pweekes@middlebury.edu" class="icon solid alt fa-envelope"><span class="label">Middlebury Email</span></a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

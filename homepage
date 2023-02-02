@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Penelope Weekes</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" />Penelope Weekes</noscript>
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html"> </a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+							  <a href="no-sidebar.html">Education</a>
+							  <ul>
+							    <li><a href="no-sidebar.html#highschool">High School</a></li>
+									<li><a href="no-sidebar.html#college">College</a></li>
+									<li>
+									  <a href="no-sidebar.html#courses">Courses</a>
+									  <ul>
+									    <li><a href="no-sidebar.html#STEMcourses">STEM</a></li>
+									    <li><a href="no-sidebar.html#languagecourses">Language</a></li>
+									    <li><a href="no-sidebar.html#educationcourses">Education</a></li>
+									    <li><a href="no-sidebar.html#othercourses">Other</a></li>
+									   </ul>
+									 </li>
+							  </ul>
+							 </li>
+							<li>
+								<a href="left-sidebar.html">Experience</a>
+								<ul>
+									<li><a href="left-sidebar.html#labratory">Laboratory</a></li>
+									<li><a href="left-sidebar.html#sailing">Sailing</a></li>
+									<li><a href="left-sidebar.html#waitressing">Waitressing</a></li>
+									<li><a href="left-sidebar.html#certifications">Certifications</a></li>
+								</ul>
+							</li>
+							<li><a href="mailto: pweekes@middlebury.edu" class="button primary">Contact Me</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2>Penelope Weekes</h2>
+							<p>Student at Middlebury College<br />
+							Major: Neuroscience<br />
+							Minors: Spanish & Education Studies</p>
+						</header>
+						<span class="image"><img src="images/index_circle.jpg" alt="" /></span>
+					</div>
+					<a href="#one" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- One -->
+				<section id="one" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/mountains.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="col-4 col-10-medium">
+									<header>
+										<p></p>
+										<h2></h2>
+									</header>
+								</div>
+								<div class="col-4 col-10-medium">
+									<header>
+										<p align = "center">I was born and raised in</p>
+										<h2 align = "center">Hailey, Idaho</h2>
+									</header>
+								</div>
+								<div class="col-4 col-10-medium">
+									<header>
+										<h2></h2>
+										<p></p>
+									</header>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</section>
+				
+			<!-- Two -->
+				<section id="two" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/sage.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="col-4 col-12-medium">
+									<header>
+										<p></p>
+										<h2></h2>
+									</header>
+								</div>
+								<div class="col-4 col-12-medium">
+									<header>
+										<p align = "center">where I went to</p>
+										<h2 align = "center">The Sage School. </h2>
+									</header>
+								</div>
+								<div class="col-4 col-12-medium">
+									<header>
+										<h2></h2>
+										<p></p>
+									</header>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Three -->
+				<section id="three" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/midd.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Middlebury College</h2>
+							<p>Middlebury, Vermont</p>
+						</header>
+						<p>I am now a sophomore in college majoring in Neuroscience. I am also pursuing a double minor in Spanish and Education Studies. I also volunteer as a research assistant in a lab on campus, work as a teaching assistant, and serve as the fleet captain of the club sailing team!</p>
+						<ul class="actions">
+							<li><a href="no-sidebar.html#college" class="button">Learn More</a></li>
+						</ul>
+					</div>
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Four -->
+				<section id="four" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="images/seal.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>University of Hawaii</h2>
+							<p>HIMB Marine Mammal Laboratory</p>
+						</header>
+						<p>During highschool I also had the opportunity to intern for a Ph.D. candidate writing her dissertation on how the changes in marine soundscape due to anthropogenic impacts affected Hawaiian Monk Seals. I also got to assist other students within the Marine Mammal Lab with data collection, and help my mentor with data analysis!</p>
+						<ul class="actions">
+							<li><a href="left-sidebar.html#labratory" class="button">Learn More</a></li>
+						</ul>
+					</div>
+					<a href="#five" class="goto-next scrolly">Next</a>
+				</section>
+				
+			<!-- Five -->
+				<section id="five" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/lasers.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Sailing</h2>
+							<p>Racing & Coaching Experience</p>
+						</header>
+						<p>I've also spent a lot of time on the ocean. I sailed competetively all throughout high school during the summer season and competed in local, regional and national scale events. I have also worked as a Junior Instructor, Instructor, and Race Coach at various Yacht Clubs!</p>
+						<ul class="actions">
+							<li><a href="left-sidebar.html#sailing" class="button">Learn More</a></li>
+						</ul>
+					</div>
+					<a href="#footer" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul>
+						<li>Contact me!</li>
+					</ul>
+					<ul class="icons">
+						<li><a href="www.linkedin.com/in/penelope-weekes" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.instagram.com/penelope.weekes/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://github.com/pweeke" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="mailto: pweekes@middlebury.edu" class="icon solid alt fa-envelope"><span class="label">Middlebury Email</span></a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
